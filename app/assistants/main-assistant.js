@@ -2,7 +2,7 @@ function MainAssistant() {
 	this.baseURL = 'http://webos.interfacelift.com/feed/';
 	this.sort = 'date.php';
 	this.sortTitle = 'Most Recent';
-	this.resolution = '?res=320x480&start=';
+	this.resolution = '?res=' + InterfaceLIFT.resolution + '&start=';
 	this.start = 0;
 	this.stop = '&stop=15';
 	

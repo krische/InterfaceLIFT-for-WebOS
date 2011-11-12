@@ -46,6 +46,8 @@ InterfaceLIFT.MenuModel = {
     ]
 };
 
+InterfaceLIFT.resolution = "320x480";
+
 function AppAssistant (appController) {
 
 }

@@ -1,0 +1,31 @@
+<div id="menuScrim" class="palm-scrim menu-panel" x-mojo-menupanel-scrim=""></div>
+<!-- Search -->
+<div id="search" class="palm-header left" x-mojo-tap-highlight="immediatePersistent">
+	InterfaceLIFT for WebOS
+	<div id="search-icon"></div>
+</div>
+<div class="palm-header-spacer"></div>
+<div id="menu-panel-container">
+	<div class="palm-menu-panel" x-mojo-menupanel="">
+		<div class="palm-menu-panel-wrapper">
+			<div class="palm-list">
+				<div class="palm-row first">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+							<div x-mojo-element="TextField" id="searchBox"></div>
+						</div>
+					</div>
+				</div>
+				<div class="palm-row last">
+					<div class="palm-row-wrapper">
+						<div x-mojo-element='Button' id="searchButton"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="artistList" x-mojo-element='List'></div>
+<div id="loadMore" x-mojo-element='Button'></div>
+
+<div class="fade-top" x-mojo-scroll-fade="top"></div>

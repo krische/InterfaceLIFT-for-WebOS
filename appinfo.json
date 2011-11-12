@@ -1,0 +1,10 @@
+{
+	"id": "com.krischeonline.webos.interfacelift",
+	"version": "3.0.0",
+	"vendor": "krischeonline",
+	"noWindow" : "true",
+	"type": "web",
+	"main": "index.html",
+	"title": "InterfaceLIFT",
+	"icon": "icon.png"
+}

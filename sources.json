@@ -1,0 +1,52 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/assistants/app-assistant.js"},
+    {"source": "app/models/Cookie.js"},
+    {"source": "app/models/Database.js"},
+    {"source": "app\/models\/metrix.js"},
+	{"source": "app\/models\/asyncWrappers.js"},
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "wallpaper-detail",
+        "source": "app/assistants/wallpaper-detail-assistant.js"
+    },
+    {
+        "scenes": "image-viewer",
+        "source": "app/assistants/image-viewer-assistant.js"
+    },
+    {
+        "scenes": "tags-list",
+        "source": "app/assistants/tags-list-assistant.js"
+    },
+    {
+        "scenes": "tags-detail",
+        "source": "app/assistants/tags-detail-assistant.js"
+    },
+    {
+        "scenes": "artists-list",
+        "source": "app/assistants/artists-list-assistant.js"
+    },
+    {
+        "scenes": "artists-detail",
+        "source": "app/assistants/artists-detail-assistant.js"
+    },
+    {
+        "scenes": "search",
+        "source": "app/assistants/search-assistant.js"
+    },
+    {
+        "scenes": "startup",
+        "source": "app/assistants/startup-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "help",
+        "source": "app/assistants/help-assistant.js"
+    }
+]

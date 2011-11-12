@@ -1,0 +1,290 @@
+/* All Scenes */
+body.palm-default {
+	background: #222222;
+}
+.fade-bottom {
+	position: fixed; 
+	bottom: 0px; 
+	z-index: 100;
+	height: 50px; 
+	width: 100%;
+	background: url(../images/fade-bottom.png) bottom center no-repeat;
+	-webkit-palm-mouse-target: ignore;
+}
+.fade-top {
+	position: fixed; 
+	top: 46px; 
+	z-index: 100;
+	height: 50px; 
+	width: 100%;
+	background: url(../images/fade-top.png) bottom center no-repeat;
+	-webkit-palm-mouse-target: ignore;
+}
+
+.scrim-text {
+	color: #aaaaaa;
+	font-size: 16px;
+	padding: 0 0 5px 0;
+}
+
+#search-icon {
+	background: url(../images/search-icon.png) no-repeat;
+	margin: 9px -4px 9px 4px;
+	display: inline-block;
+	font-size: 12px;
+	height: 32px;
+	width: 32px;
+	float: right;
+}
+
+/* Override Palm Styles */
+.palm-row-wrapper {
+	padding: 5px;
+}
+
+.palm-group.unlabeled {
+  border-width: 18px 18px 18px 18px;
+  -webkit-border-image: url(../images/palm-group-unlabeled.png) 18 18 18 18 repeat repeat;
+  padding: 2px;
+}
+
+.palm-scrim {
+  background: url(../images/scrim.png) fixed 0 0 repeat-x;
+}
+
+.palm-menu-fade {
+	background: url(../images/fade-bottom.png) bottom;
+}
+
+.palm-divider .label {
+  color: #b9b9b9;
+}
+
+.palm-divider.labeled .left {
+  background: url(../images/palm-divider-line.png) right center no-repeat;
+}
+
+.palm-divider.labeled .right {
+  background: url(../images/palm-divider-line.png) left center no-repeat;
+}
+
+.checkmark {
+	padding-top: 25px;
+}
+
+.palm-menu-panel {
+  border-width: 24px 24px 24px 24px;
+  -webkit-border-image: url(../images/palm-menu-panel.png) 24 24 24 24 repeat stretch;
+}
+
+.progress-pill-progress {
+	width : 100%;
+	height : 11px;
+	border-width : 0px 6px 0 6px;
+	-webkit-border-image : url(../images/progress-bar-progress.png) 0 6 0 6 repeat repeat;
+	-webkit-box-sizing : border-box;
+	position : absolute;
+}
+
+.palm-header {
+	-webkit-border-image: url(../images/palm-header.png) 0 25 50 25 repeat repeat;
+}
+
+.palm-header.selected {
+	-webkit-border-image: url(../images/palm-header.png) 50 25 0 25 repeat repeat;
+}
+
+.palm-menu.command-menu.palm-default > .palm-menu-fade,
+.command-menu .palm-menu-fade {
+	background: url(../images/command-menu-fade.png) top left repeat-x;
+}
+
+.palm-divider.collapsible .line {
+  background: url(../images/palm-divider-collapse-left.png) left -1px no-repeat;
+}
+
+.palm-arrow-closed {
+  height: 32px;
+  width: 56px;
+  background: url(../images/palm-divider-arrow.png) center 0px repeat-x;
+}
+
+.palm-arrow-expanded {
+  height: 32px;
+  width: 56px;
+  background: url(../images/palm-divider-arrow.png) center -64px repeat-x;
+}
+
+.selected .palm-arrow-closed {
+  background-position: right -32px;
+}
+
+.selected .palm-arrow-expanded {
+  background-position: right -96px;
+}
+
+/* command menu */
+.menu-artists {
+	background-image: url(../images/menu-icon-artists.png);
+}
+
+.menu-tags {
+	background-image: url(../images/menu-icon-tags.png);
+}
+
+.menu-wallpapers {
+	background-image: url(../images/menu-icon-wallpapers.png);
+}
+
+/* Preview Related */
+.preview-image {
+	display: inline-block;
+	width: 40%;
+}
+
+.preview-image img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.preview-content {
+	width: 50%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.preview-title {
+	font-size: 20px;
+}
+
+.preview-artist {
+	font-size: 16px;
+}
+
+.preview-date {
+	font-size: 12px;
+}
+
+/* detail related */
+.detail-preview {
+	text-align: center;
+}
+
+.detail-preview img {
+	border-radius: 10px;
+}
+
+.detail-description {
+	font-size: 14px;
+}
+
+.detail-title {
+	padding-top: 8px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+#text-field-spacer {
+	padding-top: 25px;
+}
+
+#more-arrow {
+	 background-image: url(../images/palm-divider-arrow-dark.png);
+	 float: right;
+	 margin-top: 4px;
+}
+
+#more-by-artist {
+	width: 80%;
+	float: left;
+}
+
+/* Image Viewer Related */
+.image-viewer {
+	background-color: black;
+}
+
+#setWallpaper {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+}
+
+/* Scroller Related */
+.scrollerContainer {
+    height: 100px;
+	padding: 10px 0 8px 0;
+	white-space: nowrap;
+}
+
+.scrollerItem {
+    display: inline;
+    width:     150px;
+    min-width: 150px;
+	margin: 0 5px 0 5px;
+}
+
+.scrollerItem img {
+	width: 150px;
+	border-radius: 5px;
+}
+
+#no-more {
+	color: #eeeeee;
+	text-align: center;
+	vertical-align: middle;
+	padding: 15px 0 15px 0;
+}
+
+#no-favorites {
+	color: #999999;
+	text-align: center;
+	vertical-align: middle;;
+}
+
+.palm-drawer-container {
+  -webkit-border-image: url(../images/palm-drawer-background.png) 20 1 20 1 repeat repeat;
+ }
+
+#scroller-fade-container {
+	position: relative;
+	width: 100%;
+	height: 95%;
+}
+
+.scroller-fade {
+	width: 15px;
+	height: 95px;
+	position: absolute;
+	top: 10px;
+	z-index: 10;
+	margin-top: 0;
+}
+
+#more-left {
+	left: 0px;
+	background: url('../images/scroller-fade-more-left.png') repeat-y;
+}
+
+#more-right {
+	right: 0px;
+	background: url('../images/scroller-fade-more-right.png') repeat-y;
+}
+
+#fav-left {
+	left: 0px;
+	background: url('../images/scroller-fade-fav-left.png') repeat-y;
+}
+
+#fav-right {
+	right: 0px;
+	background: url('../images/scroller-fade-fav-right.png') repeat-y;
+}
+
+/*Help Related */
+.help {
+	height: 35px;
+	padding-top: 12px;
+	padding-left: 60px;
+}

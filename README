@@ -1,0 +1,8 @@
+************************
+*      ABOUT           *
+************************
+This is a WebOS 'mojo' application meant for webOS phones such as the Pre and Pixi.
+
+The application fetches wallpapers from the www.interfacelift.com website and applies them to the phone.
+
+More information on how to build/run WebOS applications can be found by going to http://developer.palm.com

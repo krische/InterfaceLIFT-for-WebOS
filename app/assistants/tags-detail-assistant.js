@@ -2,7 +2,11 @@ function TagsDetailAssistant(tagItem) {
 	this.tagID = tagItem.tagID;
 	this.tag = tagItem.tag;
 	this.tagCount = tagItem.tagCount;
-	this.baseURL = 'http://webos.interfacelift.com/feed/category.php?res=320x480&id=' + this.tagID + '&start=';
+	this.baseURL = 'http://webos.interfacelift.com/feed/category.php?res=' +
+	               InterfaceLIFT.resolution + 
+	               '&id=' + 
+	               this.tagID + 
+	               '&start=';
 	this.start = 0;
 	this.stop = '&stop=15';
 }

@@ -48,8 +48,10 @@ InterfaceLIFT.MenuModel = {
 
 InterfaceLIFT.resolution = "320x480";
 
-function AppAssistant (appController) {
-
+function AppAssistant(appController) {
+  if (Mojo.Environment.DeviceInfo.modelNameAscii.match(/Pre3/)) {
+    InterfaceLIFT.resolution = "480x800";
+  }
 }
 
 //  -------------------------------------------------------
@@ -57,18 +59,17 @@ function AppAssistant (appController) {
 //    - Setup globals with preferences
 //    - Set up application menu; used in every scene
 //    - Open Depot and use contents for feedList
-//    - Initiate alarm for first feed update                    
-
+//    - Initiate alarm for first feed update
 AppAssistant.prototype.setup = function() {
-	// load preferences and globals from saved cookie
+    // load preferences and globals from saved cookie
     InterfaceLIFT.Cookie.initialize();
-	
+
     // initialize the database
     InterfaceLIFT.Database.initialize();
-    
+
     //Instantiate Metrix Library
     InterfaceLIFT.Metrix = new Metrix();
-    
+
     //Post the data to Metrix
     InterfaceLIFT.Metrix.postDeviceData();
 };

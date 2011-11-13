@@ -1,6 +1,6 @@
 {
 	"id": "com.krischeonline.webos.interfacelift",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"vendor": "krischeonline",
 	"noWindow" : "true",
 	"type": "web",
